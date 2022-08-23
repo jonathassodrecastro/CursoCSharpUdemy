@@ -22,7 +22,40 @@ namespace _04_PassagemParametro
             AlterarValorOut(out valor);
             Console.WriteLine("Main > var valor: " + valor);
 
+            VariasEntradas01("Elias", "Jose", "Maria");
+
+            string[] nomes = {"Elias", "Jose", "Maria", "Filipe"};
+            VariasEntradas02(nomes);
+
+            VariasEntradas03("Elias", "Jose", "Maria", "Filipe", "Jesus", "Jonathas");
+
+
             Console.ReadKey();
+        }
+        static void VariasEntradas01(string nome1, string nome2, string nome3)
+        {
+            string[] nomes = { nome1, nome2, nome3 };
+            for(int i = 0; i < 3; i++)
+            {
+                Console.WriteLine(nomes[i]);
+            }
+            Console.WriteLine();
+        }
+        static void VariasEntradas02(string[] nomes)
+        {
+            for (int i = 0; i < nomes.Length; i++)
+            {
+                Console.WriteLine(nomes[i]);
+            }
+            Console.WriteLine();
+        }
+        static void VariasEntradas03(params string[] nomes)
+        {
+            for (int i = 0; i < nomes.Length; i++)
+            {
+                Console.WriteLine(nomes[i]);
+            }
+            Console.WriteLine();
         }
         static void AlterarValor(double valor)
         { 
@@ -49,5 +82,9 @@ namespace _04_PassagemParametro
 
             Console.WriteLine("AlterarValorOut > var valor: " + valor);
         }
+
+        
+
+
     }
 }
