@@ -4,21 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _01_Classe
+namespace _02_Metodos
 {
     class Program
     {
         static void Main(string[] args)
         {
             Pessoa pessoa = new Pessoa();
-            pessoa.Nome = "Jonathas Sodré Castro";
-            pessoa.Sexo = "Masculino";
-            pessoa.DataNascimento = new DateTime(1996, 7, 5);
-
-            string texto = pessoa.ResumoPessoa();
-
-            Console.WriteLine(texto);
-
+       
+            pessoa.SetPosicao(20.5, 10.5);
+            Console.WriteLine("Posição: " + pessoa.PegarPosicao());
             Console.ReadKey();
         }
     }
