@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Estruturas", "03_Estrutu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_PassagemParametro", "04_PassagemParametroPorValor\04_PassagemParametro.csproj", "{8C6F28B7-55BA-4359-BB5C-2636415BDD3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{1E79B4DE-7A1A-4625-9743-F9063E989BC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{8C6F28B7-55BA-4359-BB5C-2636415BDD3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C6F28B7-55BA-4359-BB5C-2636415BDD3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C6F28B7-55BA-4359-BB5C-2636415BDD3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E79B4DE-7A1A-4625-9743-F9063E989BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E79B4DE-7A1A-4625-9743-F9063E989BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E79B4DE-7A1A-4625-9743-F9063E989BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E79B4DE-7A1A-4625-9743-F9063E989BC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
