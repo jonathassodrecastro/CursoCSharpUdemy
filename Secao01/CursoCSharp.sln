@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Classe", "01_Classe\01_C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Metodos", "02_Metodos\02_Metodos.csproj", "{74926A0A-0651-4F32-80A2-07CB9EA8A26B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Estruturas", "03_Estruturas\03_Estruturas.csproj", "{E23F18AD-6BC8-4D72-985D-7B6AFF37CF36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_PassagemParametro", "04_PassagemParametroPorValor\04_PassagemParametro.csproj", "{8C6F28B7-55BA-4359-BB5C-2636415BDD3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{74926A0A-0651-4F32-80A2-07CB9EA8A26B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74926A0A-0651-4F32-80A2-07CB9EA8A26B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74926A0A-0651-4F32-80A2-07CB9EA8A26B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E23F18AD-6BC8-4D72-985D-7B6AFF37CF36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E23F18AD-6BC8-4D72-985D-7B6AFF37CF36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E23F18AD-6BC8-4D72-985D-7B6AFF37CF36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E23F18AD-6BC8-4D72-985D-7B6AFF37CF36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C6F28B7-55BA-4359-BB5C-2636415BDD3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C6F28B7-55BA-4359-BB5C-2636415BDD3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C6F28B7-55BA-4359-BB5C-2636415BDD3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C6F28B7-55BA-4359-BB5C-2636415BDD3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
