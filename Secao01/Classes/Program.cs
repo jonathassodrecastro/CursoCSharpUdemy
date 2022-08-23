@@ -18,10 +18,6 @@ namespace Classes
             Console.ReadKey();
         }
 
-
-
-
-
     }
 }
 
